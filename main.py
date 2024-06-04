@@ -3,7 +3,7 @@ pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((500, 500))
 pygame.display.set_caption('Dogecoin clicker')
-doge = pygame.image.load('sprites/doge.jpg')
+doge = pygame.image.load('doge.jpg')
 coin = 0
 run = True
 while run:
